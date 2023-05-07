@@ -1,6 +1,6 @@
 import React from 'react'
 import "./navbar.scss"
-import { ArrowDropDown, NotificationAdd, Notifications, Search } from '@mui/icons-material'
+import { ArrowDropDown, NotificationAdd, Notifications,} from '@mui/icons-material'
 
 
 export const Navbar = () => {
