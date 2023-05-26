@@ -18,14 +18,25 @@ export const Navbar = () => {
                   <span>Te Rejat</span>
                   <span>Lista ime</span>
                   <span>homepage</span>
+                  
+                
 
               </div>
+              <input type='text' placeholder='Kerko Filmin' className='kerko'/>
             <div className="right">
               <span>Elvis</span>
-              <Notifications/>
-              <img src='https://yt3.googleusercontent.com/ytc/AL5GRJXLE4TfrvZ6RlSNilncmTtgD8KzxoL0QuDEuJQ64_A=s900-c-k-c0x00ffffff-no-rj' alt='profil-picture'/>
-              <ArrowDropDown/>
-              <input type='text' placeholder='Kerko Filmin'/>
+              <Notifications className='icon'/>
+              <img src='https://yt3.googleusercontent.com/ytc/AL5GRJXLE4TfrvZ6RlSNilncmTtgD8KzxoL0QuDEuJQ64_A=s900-c-k-c0x00ffffff-no-rj' 
+              alt='profil-picture'/>
+              <div className="profile">
+                <ArrowDropDown className='icon'/>
+                  <div className="options">
+                        <span>SETTINGS</span>
+                        <span>LOGOUT</span>
+                    </div>
+                
+                
+              </div>
             </div>
         </div>
      </div>
