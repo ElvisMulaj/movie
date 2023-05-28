@@ -1,13 +1,15 @@
 .navbar{
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 999;
-    background: linear-gradient(to top ,trasparent 0%,rgb(0,0,0,0.3)50%);
-
-
+    background: linear-gradient(to top ,transparent 0%,rgb(0,0,0,0.3)50%);
+//nav bar kur osht scrooled
+   &.scrolled{
+    background-color: var(--main-color);
+   }
 
     .container{
         padding: 0px  50px;
@@ -27,6 +29,7 @@
         .left{
             display: flex;
             align-items: center;
+            padding: 20px;
             img{
                 height: 24px;
                 margin-right: 10px;

@@ -1,11 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./navbar.scss"
 import { ArrowDropDown, NotificationAdd, Notifications,} from '@mui/icons-material'
 
 
 export const Navbar = () => {
+//navbar kur osht scrolled
+  const [isScrolled,setIsScrolled]= useState(false);
+
+  window.onscroll =() =>{
+    setIsScrolled(window.pageYOffset=== 0 ? false:true);
+    return () =>window.onscroll=null
+  };
+//navbar kur osht scrolled
+  
   return (
-    <div className='navbar'>
+    <div className={isScrolled ? "navbar scrolled" : "navbar"}>
+     
         <div className="container">
               <div className="left">
                   <img 
