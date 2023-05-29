@@ -22,12 +22,12 @@ export const Navbar = () => {
                   src='https://filma365.net/wp-content/uploads/2022/09/ss.png'
                   alt='elvisi'/>
 
-                  <span>Ballina</span>
-                  <span>Seriale</span>
-                  <span>Filma</span>
-                  <span>Te Rejat</span>
-                  <span>Lista ime</span>
-                  <span>homepage</span>
+                  <span>Homepage</span>
+                  <span>Series</span>
+                  <span>Movies</span>
+                  <span>New and Popular</span>
+                  <span>My list</span>
+                
                   
                 
 
